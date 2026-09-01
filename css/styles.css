@@ -189,6 +189,7 @@ a:hover { color: var(--accent-primary-hover); }
 .main-content {
     margin-left: var(--sidebar-width);
     flex: 1;
+    min-width: 0;
     min-height: 100vh;
     padding: 0;
 }
@@ -1188,6 +1189,8 @@ a:hover { color: var(--accent-primary-hover); }
     padding: 32px;
     line-height: 1.75;
     max-width: 860px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
 /* Headings inside reader */
@@ -1287,35 +1290,12 @@ a:hover { color: var(--accent-primary-hover); }
     font-weight: 600;
 }
 
-/* Tables */
+/* Tables — wrapped in a scrollable container for mobile */
 .cs-reader-content .cs-table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
     font-size: 0.85rem;
-    overflow-x: auto;
-    display: block;
-}
-
-.cs-reader-content .cs-table thead {
-    display: table-header-group;
-}
-
-.cs-reader-content .cs-table tbody {
-    display: table-row-group;
-}
-
-.cs-reader-content .cs-table tr {
-    display: table-row;
-}
-
-.cs-reader-content .cs-table th,
-.cs-reader-content .cs-table td {
-    display: table-cell;
-}
-
-.cs-reader-content .cs-table {
-    display: table;
     table-layout: auto;
 }
 
@@ -1329,7 +1309,6 @@ a:hover { color: var(--accent-primary-hover); }
     font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 0.4px;
-    white-space: nowrap;
 }
 
 .cs-reader-content .cs-table td {
@@ -1408,21 +1387,57 @@ a:hover { color: var(--accent-primary-hover); }
 /* Responsive table scroll */
 @media (max-width: 768px) {
     .cs-reader-content {
-        padding: 20px 16px;
+        padding: 18px 14px;
+        font-size: 0.95rem;
     }
 
+    /* Tables become horizontally scrollable blocks; cell text still wraps */
     .cs-reader-content .cs-table {
         display: block;
+        width: 100%;
         overflow-x: auto;
-        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        font-size: 0.82rem;
+    }
+
+    .cs-reader-content .cs-table thead,
+    .cs-reader-content .cs-table tbody,
+    .cs-reader-content .cs-table tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+    }
+
+    .cs-reader-content .cs-table th,
+    .cs-reader-content .cs-table td {
+        white-space: normal;
+        overflow-wrap: break-word;
+        word-break: break-word;
+        padding: 8px 10px;
     }
 
     .cs-reader-content .cs-h2 {
-        font-size: 1.3rem;
+        font-size: 1.25rem;
     }
 
     .cs-reader-content .cs-h3 {
-        font-size: 1.1rem;
+        font-size: 1.05rem;
+    }
+
+    .cs-reader-content .cs-h4 {
+        font-size: 0.98rem;
+    }
+
+    .cs-reader-content .cs-list {
+        padding-left: 20px;
+    }
+
+    .cs-reader-content pre {
+        padding: 12px;
+    }
+
+    .cs-reader-content pre code {
+        font-size: 0.75rem;
     }
 
     .cs-reader-topbar {
