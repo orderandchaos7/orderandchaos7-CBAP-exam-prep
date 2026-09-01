@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBAP Exam Prep</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <!-- SIDEBAR NAV -->
+    <nav id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">
+                <span class="logo-icon">&#9670;</span>
+                <span class="logo-text">CBAP Exam Prep</span>
+            </div>
+            <button id="sidebar-close" class="sidebar-close" aria-label="Close menu">&times;</button>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#" data-screen="home" class="nav-link active"><span class="nav-icon">&#8962;</span> Home</a></li>
+            <li><a href="#" data-screen="practice" class="nav-link"><span class="nav-icon">&#9997;</span> Practice</a></li>
+            <li><a href="#" data-screen="mock" class="nav-link"><span class="nav-icon">&#9201;</span> Mock Exams</a></li>
+            <li><a href="#" data-screen="dashboard" class="nav-link"><span class="nav-icon">&#9636;</span> Dashboard</a></li>
+            <li><a href="#" data-screen="review" class="nav-link"><span class="nav-icon">&#128270;</span> Review</a></li>
+            <li class="nav-divider"></li>
+            <li><a href="#" data-screen="cheatsheets" class="nav-link"><span class="nav-icon">&#128214;</span> Cheat Sheets</a></li>
+        </ul>
+        <div class="sidebar-footer">
+            <div class="progress-mini">
+                <div class="progress-mini-label">Overall Progress</div>
+                <div class="progress-bar-container">
+                    <div id="sidebar-progress-bar" class="progress-bar" style="width:0%"></div>
+                </div>
+                <div id="sidebar-progress-text" class="progress-mini-text">0 / 1,410</div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main id="main-content" class="main-content">
+        <!-- Top bar for mobile -->
+        <header class="topbar">
+            <button id="menu-toggle" class="menu-toggle" aria-label="Open menu">&#9776;</button>
+            <h1 class="topbar-title">CBAP Exam Prep</h1>
+        </header>
+
+        <!-- HOME SCREEN -->
+        <section id="screen-home" class="screen active">
+            <div class="home-hero">
+                <h2>Welcome to CBAP Exam Prep</h2>
+                <p class="hero-sub">1,410 exam-style questions across 6 Knowledge Areas, 3 Chapters, and 3 Mock Exams</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value" id="home-attempted">0</div>
+                    <div class="stat-label">Questions Attempted</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="home-correct">0</div>
+                    <div class="stat-label">Correct Answers</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="home-score">0%</div>
+                    <div class="stat-label">Overall Score</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="home-remaining">1,410</div>
+                    <div class="stat-label">Remaining</div>
+                </div>
+            </div>
+            <div class="home-actions">
+                <button class="btn btn-primary btn-lg" data-screen="practice">Start Practice</button>
+                <button class="btn btn-secondary btn-lg" data-screen="mock">Take Mock Exam</button>
+                <button class="btn btn-outline btn-lg" data-screen="cheatsheets">Study Cheat Sheets</button>
+                <button class="btn btn-outline btn-lg" data-screen="dashboard">View Dashboard</button>
+            </div>
+        </section>
+
+        <!-- PRACTICE SELECT SCREEN -->
+        <section id="screen-practice" class="screen">
+            <h2 class="screen-title">Practice by Category</h2>
+            <p class="screen-subtitle">Select a Knowledge Area or Chapter, then choose a set.</p>
+            <div id="practice-categories" class="card-grid"></div>
+        </section>
+
+        <!-- MOCK EXAM SELECT SCREEN -->
+        <section id="screen-mock" class="screen">
+            <h2 class="screen-title">Mock Exams</h2>
+            <p class="screen-subtitle">120 questions in 3 hours 30 minutes. Simulates real exam conditions.</p>
+            <div id="mock-cards" class="card-grid"></div>
+        </section>
+
+        <!-- QUIZ SCREEN (shared for practice + mock) -->
+        <section id="screen-quiz" class="screen">
+            <div class="quiz-header">
+                <div class="quiz-info">
+                    <span id="quiz-title" class="quiz-title"></span>
+                    <span id="quiz-progress" class="quiz-progress"></span>
+                </div>
+                <div id="quiz-timer" class="quiz-timer hidden"></div>
+            </div>
+            <div class="quiz-progress-bar-container">
+                <div id="quiz-progress-bar" class="progress-bar"></div>
+            </div>
+            <!-- Mock exam question nav grid -->
+            <div id="quiz-nav-grid" class="quiz-nav-grid hidden"></div>
+            <div class="quiz-body">
+                <div id="quiz-question" class="quiz-question"></div>
+                <div id="quiz-choices" class="quiz-choices"></div>
+                <div id="quiz-feedback" class="quiz-feedback hidden"></div>
+                <div id="quiz-explanation" class="quiz-explanation hidden"></div>
+            </div>
+            <div class="quiz-actions">
+                <button id="quiz-prev" class="btn btn-outline" disabled>Previous</button>
+                <button id="quiz-flag" class="btn btn-outline hidden">Flag for Review</button>
+                <button id="quiz-next" class="btn btn-primary">Next</button>
+                <button id="quiz-submit" class="btn btn-accent hidden">Submit Exam</button>
+            </div>
+        </section>
+
+        <!-- RESULTS SCREEN -->
+        <section id="screen-results" class="screen">
+            <div id="results-content"></div>
+        </section>
+
+        <!-- DASHBOARD SCREEN -->
+        <section id="screen-dashboard" class="screen">
+            <h2 class="screen-title">Performance Dashboard</h2>
+            <div class="dashboard-grid">
+                <div class="dash-card dash-card-wide">
+                    <h3>Score by Category</h3>
+                    <canvas id="chart-category"></canvas>
+                </div>
+                <div class="dash-card">
+                    <h3>Overall Progress</h3>
+                    <canvas id="chart-progress"></canvas>
+                </div>
+                <div class="dash-card">
+                    <h3>Score Trend</h3>
+                    <canvas id="chart-trend"></canvas>
+                </div>
+                <div class="dash-card dash-card-wide">
+                    <h3>Mock Exam Results</h3>
+                    <div id="mock-results-table"></div>
+                </div>
+                <div class="dash-card dash-card-wide">
+                    <h3>Weak Areas (Below 70%)</h3>
+                    <div id="weak-areas-table"></div>
+                </div>
+            </div>
+            <div class="dashboard-actions">
+                <button id="reset-data" class="btn btn-danger">Reset All Data</button>
+            </div>
+        </section>
+
+        <!-- REVIEW SCREEN -->
+        <section id="screen-review" class="screen">
+            <h2 class="screen-title">Review Past Attempts</h2>
+            <div id="review-list" class="review-list"></div>
+            <div id="review-detail" class="review-detail hidden"></div>
+        </section>
+
+        <!-- CHEAT SHEETS LISTING SCREEN -->
+        <section id="screen-cheatsheets" class="screen">
+            <h2 class="screen-title">Cheat Sheets</h2>
+            <p class="screen-subtitle">Quick-reference study guides for every BABOK chapter. Tap to read.</p>
+            <div id="cheatsheet-cards" class="card-grid"></div>
+        </section>
+
+        <!-- CHEAT SHEET READER SCREEN -->
+        <section id="screen-cheatsheet-reader" class="screen">
+            <div class="cs-reader-topbar">
+                <button id="cs-back" class="btn btn-outline btn-sm">&#8592; All Cheat Sheets</button>
+                <span id="cs-reader-title" class="cs-reader-title"></span>
+            </div>
+            <article id="cs-reader-content" class="cs-reader-content"></article>
+        </section>
+    </main>
+
+    <!-- Overlay for mobile sidebar -->
+    <div id="sidebar-overlay" class="sidebar-overlay"></div>
+
+    <script src="js/storage.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/quiz.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
