@@ -1,5 +1,5 @@
 /* ============================================
-   Quiz Module — Practice + Mock Exam Engine
+   Quiz Module - Practice + Mock Exam Engine
    ============================================ */
 
 const Quiz = (() => {
@@ -11,7 +11,7 @@ const Quiz = (() => {
         currentIndex: 0,
         answers: {},            // { questionIndex: 'A'|'B'|'C'|'D' }
         flagged: new Set(),
-        locked: {},             // { questionIndex: true } — for practice after answering
+        locked: {},             // { questionIndex: true } - for practice after answering
         startTime: null,
         timerInterval: null,
         timeLimit: 0,           // seconds (0 = no limit)
@@ -242,7 +242,7 @@ const Quiz = (() => {
             feedbackEl.classList.add(isCorrect ? 'correct' : 'wrong');
             feedbackEl.textContent = isCorrect
                 ? 'Correct!'
-                : `Incorrect — the correct answer is ${q.answer}.`;
+                : `Incorrect - the correct answer is ${q.answer}.`;
 
             if (q.explanation) {
                 explEl.classList.remove('hidden');
