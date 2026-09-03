@@ -20,6 +20,30 @@ const App = (() => {
         ch11: { label: 'Ch11', fullName: 'Perspectives', color: '#00b894', sets: 1 },
     };
 
+    // Lucide-style SVG icons for cheat sheet cards (24x24, 2px stroke, currentColor)
+    const SVG = (paths) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${paths}</svg>`;
+    const CHEATSHEET_ICONS = {
+        // KA1 - Planning & Monitoring: clipboard/list
+        ka1: SVG('<rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M12 11h4"/><path d="M12 16h4"/><path d="M8 11h.01"/><path d="M8 16h.01"/>'),
+        // KA2 - Elicitation & Collaboration: message/conversation
+        ka2: SVG('<path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z"/><path d="M8 12h.01"/><path d="M12 12h.01"/><path d="M16 12h.01"/>'),
+        // KA3 - Requirements Life Cycle: refresh/cycle
+        ka3: SVG('<path d="M3 2v6h6"/><path d="M21 12A9 9 0 0 0 6 5.3L3 8"/><path d="M21 22v-6h-6"/><path d="M3 12a9 9 0 0 0 15 6.7l3-2.7"/>'),
+        // KA4 - Strategy Analysis: target/compass
+        ka4: SVG('<circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>'),
+        // KA5 - RADD: layers/blueprint
+        ka5: SVG('<path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"/><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"/><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"/>'),
+        // KA6 - Solution Evaluation: check circle
+        ka6: SVG('<path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/>'),
+        // Ch9 - Competencies: brain/lightbulb
+        ch9: SVG('<path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/>'),
+        // Ch10 - Techniques: tool/wrench
+        ch10: SVG('<path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>'),
+        // Ch11 - Perspectives: eye/layers
+        ch11: SVG('<path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/><circle cx="12" cy="12" r="3"/>'),
+        default: SVG('<path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/>')
+    };
+
     async function init() {
         await loadQuestions();
         await loadCheatsheets();
@@ -287,8 +311,9 @@ const App = (() => {
             const card = document.createElement('div');
             card.className = 'cs-card';
             card.addEventListener('click', () => openCheatsheet(sheet.id));
+            const icon = CHEATSHEET_ICONS[sheet.id] || CHEATSHEET_ICONS.default;
             card.innerHTML = `
-                <div class="cs-card-icon">${sheet.icon}</div>
+                <div class="cs-card-icon">${icon}</div>
                 <div class="cs-card-body">
                     <div class="cs-card-title">${sheet.title}</div>
                     <div class="cs-card-desc">Quick-reference study guide</div>
