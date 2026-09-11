@@ -1,0 +1,392 @@
+[
+  {
+    "answer": "D",
+    "choices": {
+      "A": "Personal accountability, because the analyst simply needs to work harder",
+      "B": "Business knowledge, because the analyst already understands the domain",
+      "C": "Tools and technology, because a better modeling tool would resolve it",
+      "D": "Interaction skills, specifically facilitation, so the analyst can guide the two directors to surface interests and reach a workable agreement"
+    },
+    "explanation": "Facilitation is an interaction skill among the Underlying Competencies; it enables a business analyst to lead a group toward a shared outcome by drawing out positions, managing conflict, and steering the discussion to agreement. Two directors disagreeing on scope is a classic facilitation situation. Personal accountability concerns following through on commitments, not resolving group conflict; business knowledge is domain understanding, which does not itself broker an agreement; and a modeling tool cannot reconcile competing human interests.",
+    "id": 91,
+    "question": "During a scope workshop, two directors openly disagree about which capabilities belong in the first release, and the discussion stalls. Which Underlying Competency does the business analyst most need to draw on to move the group forward?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "C",
+    "choices": {
+      "A": "Creative thinking",
+      "B": "Trustworthiness",
+      "C": "Systems thinking",
+      "D": "Time management"
+    },
+    "explanation": "Systems thinking is the Underlying Competency that lets a business analyst understand how people, processes, and technology interact as a whole and how a change to one part ripples through the others. Recognizing that a change to an ordering process will affect inventory, finance, and customer service reflects seeing the enterprise as an interacting system. Creative thinking generates novel ideas; trustworthiness is about integrity and reliability; time management concerns prioritizing one's own work, none of which describes tracing cross-functional ripple effects.",
+    "id": 92,
+    "question": "A business analyst reasons that altering the order-entry process will not just change data entry but will also affect inventory levels, financial reconciliation, and customer service workloads, so the whole chain must be considered together. Which Underlying Competency is she primarily exercising?",
+    "difficulty": "medium"
+  },
+  {
+    "answer": "A",
+    "choices": {
+      "A": "Behavioural characteristics, specifically trustworthiness, because reliably acting with integrity is what earns candid input over time",
+      "B": "Tools and technology, because a secure survey tool guarantees honesty",
+      "C": "Business knowledge, because knowing the domain makes stakeholders talk",
+      "D": "Communication skills alone, because clear wording is all that candour requires"
+    },
+    "explanation": "Trustworthiness is a behavioural characteristic in the Underlying Competencies; when stakeholders believe the analyst will handle information with integrity and act in their interest, they share candid and sometimes sensitive information. A survey tool addresses confidentiality mechanics but not the relationship that produces honesty; domain knowledge helps interpret answers but does not by itself make people open up; and clear communication helps the exchange but candour rests on trust built through consistent, principled behaviour.",
+    "id": 93,
+    "question": "Stakeholders have begun sharing sensitive, candid concerns with a business analyst that they withheld from previous analysts. Which Underlying Competency most directly explains why they now feel able to be this open?",
+    "difficulty": "very difficult"
+  },
+  {
+    "answer": "B",
+    "choices": {
+      "A": "A context diagram, because it shows external entities and system boundaries",
+      "B": "A root cause analysis technique such as the five whys or a fishbone (cause-and-effect) diagram, to trace the defects back to their underlying causes rather than symptoms",
+      "C": "A financial analysis, because every problem is ultimately about cost",
+      "D": "A user story map, because stories will document the defects"
+    },
+    "explanation": "Root cause analysis, using techniques like the five whys or an Ishikawa/fishbone (cause-and-effect) diagram, systematically works past symptoms to the underlying causes of a problem, which is exactly what recurring defects of unknown origin require. A context diagram scopes a system boundary but does not diagnose causes; financial analysis quantifies cost impact but does not explain why defects occur; and a user story map organizes desired functionality, not the investigation of an existing problem's origin.",
+    "id": 94,
+    "question": "A support team keeps logging the same category of production defects but no one has identified why they keep occurring. Which technique is most appropriate to uncover the underlying source before proposing changes?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "D",
+    "choices": {
+      "A": "SWOT analysis",
+      "B": "Data flow diagram",
+      "C": "Process modelling",
+      "D": "Decision modelling (a decision table or decision tree), because it captures how combinations of conditions map to specific outcomes"
+    },
+    "explanation": "Decision modelling, expressed as a decision table or decision tree, is the technique for representing complex, rules-based logic where many combinations of input conditions determine an outcome, making gaps and contradictions in the rules visible. SWOT assesses strategic position; a data flow diagram shows how data moves between processes and stores; and process modelling shows the sequence of activities. None of these is designed to enumerate condition-outcome rule combinations the way a decision table or tree does.",
+    "id": 95,
+    "question": "Eligibility for a loan product depends on many combinations of income band, credit score, employment status, and existing debt, and stakeholders keep contradicting each other about the rules. Which technique best represents and clarifies this logic?",
+    "difficulty": "very difficult"
+  },
+  {
+    "answer": "C",
+    "choices": {
+      "A": "Interviews, because one-to-one conversations always yield the richest data",
+      "B": "Survey or questionnaire only, because it is the cheapest option",
+      "C": "Observation (job shadowing), because the actual steps people perform often differ from what they describe, and watching reveals the real workflow and workarounds",
+      "D": "Document analysis, because the current procedure manual is authoritative"
+    },
+    "explanation": "Observation, including job shadowing, is the elicitation technique of choice when people cannot fully articulate what they do or when actual practice diverges from documented or described procedure; watching the work reveals informal steps and workarounds. Interviews and surveys capture what people say they do, which is exactly the gap here; and document analysis reflects the official procedure, which the team is evidently not following. Observation directly surfaces the true as-is behaviour.",
+    "id": 96,
+    "question": "A business analyst suspects that warehouse staff follow different steps than the official procedure describes, but the staff themselves struggle to explain what they actually do. Which elicitation technique will most reliably reveal the true current process?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "A",
+    "choices": {
+      "A": "Interface analysis, because it identifies and defines the interactions between the solution and other systems, organizations, or people at its boundaries",
+      "B": "Non-functional requirements analysis, because interfaces are always performance concerns",
+      "C": "Data dictionary, because it lists every data element",
+      "D": "Business rules analysis, because interfaces are governed by policy"
+    },
+    "explanation": "Interface analysis is the technique used to identify, define, and clarify the interfaces between a solution and other systems, organizations, or human actors, including the inputs and outputs that cross each boundary. A data dictionary catalogues data elements but not the interactions across boundaries; non-functional requirements analysis addresses qualities like performance or security, not the definition of interfaces themselves; and business rules analysis captures policy logic rather than integration points.",
+    "id": 97,
+    "question": "A new claims platform must exchange data with three external partner systems and hand off tasks to a separate document-management service. Which technique should the business analyst use to define these connection points and the data that crosses them?",
+    "difficulty": "medium"
+  },
+  {
+    "answer": "D",
+    "choices": {
+      "A": "It cannot be prioritized because it is not a stated feature",
+      "B": "It should always be the highest priority because auditors are powerful",
+      "C": "It should be deferred to the last release because it is not customer-facing",
+      "D": "It is a stakeholder need that should be assessed for value, risk, and dependencies alongside functional requirements when the backlog is prioritized"
+    },
+    "explanation": "Prioritization ranks requirements based on their relative value, risk, cost, dependencies, and other factors so the highest-value work is done first, and a regulatory or audit-driven requirement is a legitimate requirement to be weighed on those same factors, often carrying high risk if unmet. It is not un-prioritizable simply because it is non-functional; it is not automatically top priority merely due to the requester's authority; and it should not be reflexively deferred, because unmet compliance can carry serious risk. It enters the same value/risk/dependency assessment as everything else.",
+    "id": 98,
+    "question": "Midway through delivery, an internal auditor requires that the solution retain a tamper-evident log of every configuration change. The product owner asks how this fits prioritization. What is the most defensible position?",
+    "difficulty": "very difficult"
+  },
+  {
+    "answer": "B",
+    "choices": {
+      "A": "Detailed requirements are frozen up front and treated as a fixed contract for the whole release",
+      "B": "Requirements emerge and are progressively elaborated just in time, with the highest-value items detailed for the upcoming iteration and lighter-weight items further out",
+      "C": "The business analyst role disappears because developers gather all requirements",
+      "D": "Requirements are captured only after the software is delivered, during a review"
+    },
+    "explanation": "Under the Agile Perspective, business analysis favours just-in-time, progressive elaboration: detail is added to the highest-priority items as they approach implementation, while lower-priority items stay lightweight until their value and details are clearer, keeping decisions at the last responsible moment. Freezing all requirements up front is a plan-driven stance, not agile; the analysis work continues (often shared, not eliminated); and deferring all requirements until after delivery contradicts iterative delivery of working increments.",
+    "id": 99,
+    "question": "On an Agile initiative, a stakeholder asks how requirements will be managed across the release. Consistent with the Agile Perspective, which description is most accurate?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "A",
+    "choices": {
+      "A": "The dimensional model organized around a business process, whose fact tables hold measures and dimension tables provide the descriptive attributes used to slice and analyze them",
+      "B": "The normalized transactional schema copied unchanged, because reporting should read directly from production tables",
+      "C": "A single flat spreadsheet, because analysts prefer one wide table",
+      "D": "A document store, because business intelligence always uses unstructured data"
+    },
+    "explanation": "In the Business Intelligence Perspective, analytical data is typically organized dimensionally: fact tables capture the measurable events of a business process, and dimension tables hold the descriptive attributes (time, product, region, customer) used to filter, group, and aggregate those measures. A normalized OLTP schema is optimized for transactional integrity, not analytical query performance, and reporting off production tables risks contention; a single flat sheet does not scale or support consistent shared definitions; and BI works with structured, curated measures and dimensions, not exclusively unstructured documents.",
+    "id": 100,
+    "question": "A business analyst supporting a Business Intelligence initiative must describe how the analytical data should be structured so business users can slice sales results by time, product, and region. Which structure best fits the Business Intelligence Perspective?",
+    "difficulty": "very difficult"
+  },
+  {
+    "answer": "D",
+    "choices": {
+      "A": "The physical database tables and indexes",
+      "B": "The specific vendor product the enterprise has already purchased",
+      "C": "The individual user's screen preferences",
+      "D": "A future-state view of the enterprise's capabilities, information, and their relationships that guides consistent, aligned change over time"
+    },
+    "explanation": "The Business Architecture Perspective provides a blueprint of the enterprise, its capabilities, value streams, information, and organization, expressed at a level above any single solution so that individual changes stay aligned to the whole. It is deliberately technology- and product-agnostic; physical tables and indexes are an implementation concern, a purchased product is a solution decision, and personal screen preferences are trivial UI details. Business architecture frames how each initiative fits the enterprise's overall capabilities and direction.",
+    "id": 101,
+    "question": "Working under the Business Architecture Perspective, a business analyst is asked what a business architecture principally provides to guide a portfolio of changes. Which answer is most accurate?",
+    "difficulty": "medium"
+  },
+  {
+    "answer": "C",
+    "choices": {
+      "A": "The number of lines of code delivered per sprint",
+      "B": "The count of servers decommissioned during migration",
+      "C": "Business outcomes and value the change enables, expressed in terms meaningful to the business, not merely the technical deliverables",
+      "D": "The percentage of the IT budget that was spent"
+    },
+    "explanation": "The Information Technology Perspective cautions that IT changes must still be justified and measured by the business value and outcomes they enable, not by technical activity alone. Lines of code, servers decommissioned, and budget consumption are activity or cost measures that can move while delivering little business benefit. Framing success as enabled business outcomes keeps an IT-heavy initiative anchored to the value it is meant to create.",
+    "id": 102,
+    "question": "An initiative is heavily IT-focused (a platform migration), and the sponsor wants to know how success should be defined. Consistent with the Information Technology Perspective, on what should success primarily be judged?",
+    "difficulty": "very difficult"
+  },
+  {
+    "answer": "B",
+    "choices": {
+      "A": "The organizational chart, because process is defined by who reports to whom",
+      "B": "End-to-end processes that cross functional boundaries, focusing on how work flows to deliver value to a customer rather than on departmental silos",
+      "C": "Individual keystrokes captured for every employee",
+      "D": "The general ledger, because processes are financial by nature"
+    },
+    "explanation": "The Business Process Management Perspective centres on managing and improving end-to-end processes that cross departmental boundaries to deliver value to a customer, deliberately looking past functional silos and org-chart reporting lines. Keystroke-level capture is far too granular and not the unit of BPM analysis, and the general ledger is a financial record, not a process view. BPM's defining lens is the horizontal, value-delivering process.",
+    "id": 103,
+    "question": "A business analyst adopting the Business Process Management Perspective is deciding what to place at the centre of the analysis. Which focus is most consistent with that perspective?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "D",
+    "choices": {
+      "A": "MoSCoW prioritization",
+      "B": "Risk analysis and management",
+      "C": "Backlog management",
+      "D": "Estimation, because it produces the ranges and confidence levels used to forecast effort, cost, or duration"
+    },
+    "explanation": "Estimation is the technique that produces forecasts of effort, time, cost, or resources, often as ranges with confidence levels, and supports refining those forecasts as more is known. MoSCoW prioritization ranks requirements by importance; risk analysis assesses uncertain events and responses; and backlog management orders and maintains pending work. Only estimation directly yields the effort/cost/duration forecast the sponsor is asking for.",
+    "id": 104,
+    "question": "A sponsor asks the business analyst for a defensible forecast of how much effort the analysis work will take, expressed with an explicit degree of confidence. Which technique most directly produces this?",
+    "difficulty": "medium"
+  },
+  {
+    "answer": "A",
+    "choices": {
+      "A": "A RACI matrix, which assigns who is Responsible, Accountable, Consulted, and Informed for each activity or decision",
+      "B": "A state transition diagram, which shows the states of an object",
+      "C": "A data model, which shows entities and relationships",
+      "D": "A use case, which shows an actor achieving a goal"
+    },
+    "explanation": "A RACI matrix (a form of roles and permissions / responsibility assignment) clarifies, for each activity or decision, who is Responsible for doing it, who is Accountable for the outcome, and who must be Consulted or merely Informed, which is exactly what is needed when approval roles are unclear. A state transition diagram models object states; a data model captures entities and relationships; and a use case describes an actor pursuing a goal. None of these three assigns decision responsibilities across stakeholders.",
+    "id": 105,
+    "question": "Confusion keeps arising over who may approve requirements changes versus who is only kept informed. Which technique best clarifies these responsibilities across the stakeholder group?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "C",
+    "choices": {
+      "A": "Conduct a large anonymous survey to reach the widest audience quickly",
+      "B": "Send a detailed questionnaire so responses can be tabulated",
+      "C": "Run a focus group, because a facilitated small-group discussion surfaces attitudes, reactions, and the reasoning behind them through interaction",
+      "D": "Perform document analysis of past complaint logs"
+    },
+    "explanation": "A focus group brings together a small, pre-qualified set of participants in a facilitated discussion to explore attitudes, perceptions, and the reasoning behind them, with the group interaction itself producing insights individuals might not volunteer alone. A large anonymous survey and a questionnaire gather breadth and quantifiable data but not the interactive, exploratory depth sought here; and analyzing old complaint logs is document analysis of historical records, not elicitation of current attitudes and their underlying reasons.",
+    "id": 106,
+    "question": "A product team wants to understand customers' underlying attitudes toward a proposed redesign and the reasoning behind their reactions, exploring ideas as a group. Which elicitation technique best fits this goal?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "D",
+    "choices": {
+      "A": "Because the customer signs off at the end of the whole project only",
+      "B": "Because it removes the need for any written requirements at all",
+      "C": "Because it transfers all analysis responsibility to the development team",
+      "D": "Because frequent delivery of working increments lets stakeholders inspect real results and adapt requirements based on actual feedback rather than upfront speculation"
+    },
+    "explanation": "A core principle of the Agile Perspective is delivering working solution increments frequently so stakeholders can inspect tangible results and adapt, keeping requirements responsive to real feedback and reducing the risk of building the wrong thing from upfront guesses. End-of-project sign-off is a plan-driven pattern, not agile; agile still values necessary documentation rather than eliminating it; and analysis responsibility is shared within the team, not wholesale transferred. The adaptive, feedback-driven cadence is what makes short increments valuable.",
+    "id": 107,
+    "question": "On an Agile initiative, the sponsor questions why the team insists on delivering small working increments every two weeks rather than one large release at the end. From the Agile Perspective, what is the strongest justification?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "B",
+    "choices": {
+      "A": "Personal organization and time management",
+      "B": "Conflict resolution and negotiation, to reconcile the opposing positions toward an outcome the group can accept",
+      "C": "Learning, to absorb new domain facts",
+      "D": "Verbal communication only, to restate each side more loudly"
+    },
+    "explanation": "Negotiation and conflict resolution are interaction skills within the Underlying Competencies that let the business analyst mediate opposing positions, explore interests, and steer stakeholders toward a mutually acceptable resolution. Time management addresses the analyst's own workload; learning builds domain knowledge but does not settle a dispute; and merely restating positions more forcefully is not skilled communication and would likely inflame rather than resolve the conflict.",
+    "id": 108,
+    "question": "Two stakeholder groups hold firmly opposed positions on a business rule, and each expects the business analyst to help them reach a resolution. Which Underlying Competency is most central to helping them settle it?",
+    "difficulty": "medium"
+  },
+  {
+    "answer": "D",
+    "choices": {
+      "A": "It is unnecessary because the highest-paid person's opinion should decide",
+      "B": "It replaces the need to elicit requirements at all",
+      "C": "It is used only to reject stakeholders the analyst finds difficult",
+      "D": "It identifies stakeholders, assesses their influence, attitude, and interest, and informs how each should be engaged and collaborated with"
+    },
+    "explanation": "Stakeholder analysis (stakeholder list, map, or personas) identifies who is affected by or can affect the change and characterizes their influence, interest, attitude, and authority so engagement can be tailored appropriately. It exists precisely to avoid deciding by seniority alone; it guides rather than replaces elicitation; and its purpose is inclusive, effective engagement, not excluding inconvenient stakeholders. Understanding each stakeholder's position is what lets the analyst plan proportionate collaboration.",
+    "id": 109,
+    "question": "A business analyst maps each stakeholder's level of influence and their attitude toward an upcoming change. What is the primary purpose of this stakeholder analysis?",
+    "difficulty": "medium"
+  },
+  {
+    "answer": "A",
+    "choices": {
+      "A": "Prototyping, because an interactive or visual model lets stakeholders react to a tangible representation and refine requirements before build",
+      "B": "A cause-and-effect diagram, because it will show why the screens are wrong",
+      "C": "A glossary, because defining terms resolves layout disputes",
+      "D": "A SWOT analysis, because it assesses the screens' strengths and weaknesses"
+    },
+    "explanation": "Prototyping produces a preliminary, often interactive model of the solution (a mock-up, wireframe, or working proof of concept) that stakeholders can see and manipulate, drawing out requirements and correcting misunderstandings that text alone leaves hidden. A cause-and-effect diagram diagnoses problem causes; a glossary standardizes terminology; and SWOT evaluates strategic position. Only prototyping gives stakeholders a tangible artifact to react to and refine before committing to build.",
+    "id": 110,
+    "question": "Stakeholders keep approving written screen requirements and then rejecting the delivered screens, saying \"that is not what we meant.\" Which technique best closes this gap before development?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "C",
+    "choices": {
+      "A": "A use case or user story, because it describes desired behaviour",
+      "B": "A business rule, because it constrains behaviour",
+      "C": "A non-functional requirement, because it specifies a quality of service (such as performance, capacity, or availability) rather than a behaviour",
+      "D": "A stakeholder requirement, because a stakeholder stated it"
+    },
+    "explanation": "A requirement that the system respond within two seconds under a stated peak load specifies a quality of service (performance/capacity), which is a non-functional requirement rather than a described behaviour or business policy. A use case or user story captures functional behaviour (what the system does); a business rule expresses a policy constraint; and 'stakeholder requirement' describes a level of abstraction, not the functional-versus-quality distinction being asked about. The two-second-under-load characteristic is definitionally non-functional.",
+    "id": 111,
+    "question": "A requirement states: \"The search results must be returned within two seconds when up to 5,000 concurrent users are active.\" How is this requirement best classified?",
+    "difficulty": "very difficult"
+  },
+  {
+    "answer": "D",
+    "choices": {
+      "A": "Adaptability and self-confidence, because the analyst simply needs to stay positive",
+      "B": "Industry knowledge alone, because knowing the sector answers every question",
+      "C": "Tools and technology, because a requirements tool ensures ethics",
+      "D": "Ethics, because recognizing the implications of a decision and acting fairly and with integrity guides how the analyst handles the conflict of interest"
+    },
+    "explanation": "Ethics, a behavioural characteristic in the Underlying Competencies, is the analyst's ability to recognize the ethical implications of situations and act fairly, honestly, and with integrity, which is exactly what a conflict of interest between a sponsor's request and stakeholders' welfare demands. Adaptability and self-confidence concern flexibility and assurance, not moral judgment; industry knowledge informs decisions but does not resolve a values conflict; and a software tool cannot supply integrity. Ethical reasoning is the competency in play.",
+    "id": 112,
+    "question": "A sponsor privately asks the business analyst to omit a known risk from a report so a funding decision will go through. Which Underlying Competency most directly governs how the analyst should respond?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "A",
+    "choices": {
+      "A": "Business capabilities, because a capability model describes what the enterprise is able to do, independent of how, who, or which system performs it",
+      "B": "Screen-by-screen UI specifications for each application",
+      "C": "The current staffing roster by department",
+      "D": "A list of open IT support tickets"
+    },
+    "explanation": "In the Business Architecture Perspective, a capability model expresses what the enterprise is able to do, stated independently of the processes, people, or technology that realize it, giving a stable frame for planning change across the portfolio. UI specifications and support tickets are implementation- and operations-level detail; a staffing roster is an organizational snapshot. Only capabilities provide the how-, who-, and technology-agnostic view of enterprise ability that business architecture centres on.",
+    "id": 113,
+    "question": "A business analyst working under the Business Architecture Perspective wants an anchor that stays stable even as systems and org structures change. Which construct best serves that role?",
+    "difficulty": "very difficult"
+  },
+  {
+    "answer": "B",
+    "choices": {
+      "A": "As-is only, because process management ignores future designs",
+      "B": "Both the current (as-is) and future (to-be) process states, so the improvement and its impact can be understood and communicated",
+      "C": "Neither, because BPM relies solely on interviews",
+      "D": "Only a data model of the process outputs"
+    },
+    "explanation": "The Business Process Management Perspective typically models both the as-is process, to understand current performance and pain points, and the to-be process, to define and communicate the improved design and its expected impact. Modelling only the as-is leaves no target; ignoring modelling in favour of interviews alone forfeits the shared visual understanding BPM depends on; and a data model of outputs is not a process model. Capturing current and future states together is standard BPM practice.",
+    "id": 114,
+    "question": "Adopting the Business Process Management Perspective to improve an order-fulfilment process, which process representations should the business analyst typically produce?",
+    "difficulty": "medium"
+  },
+  {
+    "answer": "D",
+    "choices": {
+      "A": "Whichever option the loudest stakeholder prefers",
+      "B": "The option with the lowest upfront cost, ignoring other factors",
+      "C": "The option chosen at random to appear impartial",
+      "D": "A weighted scoring / decision matrix that rates each option against agreed, weighted criteria to make the trade-offs explicit and comparable"
+    },
+    "explanation": "Decision analysis using a weighted scoring model (decision matrix) evaluates options against agreed criteria with assigned weights, producing a transparent, comparable basis for a recommendation and making trade-offs explicit. Deferring to the loudest voice ignores evidence; choosing purely on lowest upfront cost disregards value, risk, and other criteria; and random selection abandons analysis entirely. A weighted decision matrix is the technique that structures a defensible multi-criteria choice.",
+    "id": 115,
+    "question": "Three candidate vendors each score differently on cost, fit, risk, and support, and the steering committee wants a transparent, defensible recommendation. Which technique best supports this decision?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "A",
+    "choices": {
+      "A": "A definition of ready (and, for completed work, a definition of done) agreed by the team as the shared quality gate for backlog items",
+      "B": "A signed, fixed requirements contract for the whole release",
+      "C": "A Gantt chart baselining every task to a fixed date",
+      "D": "A comprehensive requirements specification approved before any coding"
+    },
+    "explanation": "In the Agile Perspective, a team-agreed definition of ready sets the shared criteria a backlog item must meet before it is pulled into an iteration (and a definition of done governs completion), giving a lightweight, collaboratively owned quality gate instead of heavyweight upfront contracts. A signed fixed requirements contract, a fully baselined Gantt chart, and a big upfront specification approved before coding are all plan-driven artifacts that conflict with agile's adaptive, just-in-time approach.",
+    "id": 116,
+    "question": "An Agile team wants a lightweight, shared agreement on when a backlog item is sufficiently understood to be brought into an iteration. Consistent with the Agile Perspective, what should they establish?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "D",
+    "choices": {
+      "A": "Data mining is unrelated to business analysis and should be avoided",
+      "B": "Data mining replaces the need to define any business questions first",
+      "C": "Data mining guarantees that correlations it finds are causal",
+      "D": "Data mining applies analytical techniques to large data sets to discover patterns and relationships that can inform requirements and decisions, but findings still require business interpretation"
+    },
+    "explanation": "In the Business Intelligence Perspective, data mining applies statistical and machine-analytical techniques to large data sets to reveal patterns, associations, and trends that can inform requirements and decision-making, while the discovered patterns still need human business interpretation and validation. It is directly relevant to BI-oriented analysis, so it is not to be avoided; it complements rather than removes the need to frame business questions; and correlation surfaced by mining does not by itself establish causation. Recognizing both its value and its limits is the accurate view.",
+    "id": 117,
+    "question": "On a Business Intelligence initiative, a stakeholder asks the business analyst how data mining should be understood. Which statement is most accurate under the Business Intelligence Perspective?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "D",
+    "choices": {
+      "A": "Legacy systems can always be replaced with no impact because data simply copies over",
+      "B": "Non-functional requirements are irrelevant when the software already exists",
+      "C": "Technical debt is purely a developer concern with no business analysis relevance",
+      "D": "Technical constraints such as legacy integration, data quality, and non-functional requirements can materially shape which solution options are feasible and must be analyzed, not assumed away"
+    },
+    "explanation": "The Information Technology Perspective stresses that technical realities, legacy integration complexity, data quality, security, and non-functional requirements, constrain what is feasible and therefore must be analyzed as first-class considerations rather than assumed away. Replacing legacy systems commonly carries significant data and integration impact; non-functional requirements remain critical even for existing software; and technical debt has direct business consequences for cost, risk, and speed, making it relevant to business analysis rather than a purely developer-only matter.",
+    "id": 118,
+    "question": "A sponsor assumes a new capability can simply be bolted onto existing systems with no analysis of the technology involved. From the Information Technology Perspective, which statement should the business analyst present?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "C",
+    "choices": {
+      "A": "Lessons learned should be captured only if the project failed",
+      "B": "Lessons learned are the sponsor's private notes and are not shared",
+      "C": "A lessons learned (retrospective) session reviews what went well and what did not so the team and organization can improve future performance",
+      "D": "Lessons learned are a financial reconciliation of the project budget"
+    },
+    "explanation": "The lessons learned technique (retrospective) convenes stakeholders to review successes, shortcomings, and opportunities from an initiative or phase so improvements can be applied going forward; it is valuable regardless of outcome, applies to both successes and failures, and is meant to be shared to build organizational capability. It is not restricted to failed projects, not a private sponsor artifact, and not a budget reconciliation. Its purpose is continuous improvement through honest, shared reflection.",
+    "id": 119,
+    "question": "At the close of a delivery phase, the team wants to systematically improve how they work next time. Which technique is designed for this purpose, and what is its intent?",
+    "difficulty": "medium"
+  },
+  {
+    "answer": "C",
+    "choices": {
+      "A": "Value stream mapping is only about IT deployment pipelines and nothing else",
+      "B": "Value stream mapping is a technique for assigning individual performance ratings to staff",
+      "C": "Value stream mapping visualizes the end-to-end flow of activities that deliver value to a customer, exposing delays, hand-offs, and waste to target improvement",
+      "D": "Value stream mapping is a financial statement of revenue per product line"
+    },
+    "explanation": "Value stream mapping (used within the Business Process Management Perspective and lean thinking) charts the end-to-end sequence of activities that deliver value to a customer, making visible the wait times, hand-offs, and non-value-adding steps so improvement can be targeted where flow breaks down. It is not limited to software deployment pipelines, is not a staff performance-rating tool, and is not a financial revenue statement. Its defining purpose is exposing and improving the flow of value across a process.",
+    "id": 120,
+    "question": "A business analyst working under the Business Process Management Perspective wants to see where time and effort are lost across an entire order-to-cash flow. Which technique is purpose-built for this, and what does it reveal?",
+    "difficulty": "difficult"
+  }
+]
