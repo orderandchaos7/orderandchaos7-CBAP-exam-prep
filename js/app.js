@@ -189,7 +189,7 @@ const App = (() => {
         const container = document.getElementById('mock-cards');
         container.innerHTML = '';
 
-        for (let i = 1; i <= 3; i++) {
+        for (let i = 1; i <= 4; i++) {
             const catId = `mock${i}`;
             const setData = getQuestionSet(catId);
             if (!setData) continue;
