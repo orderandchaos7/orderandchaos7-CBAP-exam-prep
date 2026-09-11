@@ -1,0 +1,392 @@
+[
+  {
+    "answer": "C",
+    "choices": {
+      "A": "Begin writing solution requirements immediately so the team is not idle",
+      "B": "Ask the sponsor to approve the budget before any analysis takes place",
+      "C": "Specify and model requirements at a level of abstraction and in formats appropriate to the audience and the decisions those requirements must support",
+      "D": "Convert every stakeholder statement verbatim into a numbered requirement"
+    },
+    "explanation": "Specify and Model Requirements (Requirements Analysis and Design Definition) analyzes, structures, and represents requirements and designs using text, matrices, or diagrams chosen to fit the audience and the decision at hand, at an appropriate level of abstraction. Starting to write before analyzing risks capturing noise; budget approval is a governance step, not a modeling activity; and transcribing statements verbatim skips the analysis that turns raw needs into clear, usable requirements.",
+    "id": 61,
+    "question": "Omar, a business analyst, has a large volume of raw elicitation notes and must turn them into requirements that different audiences (executives, developers, testers) can each act on. According to Requirements Analysis and Design Definition, what should guide how he represents these requirements?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "B",
+    "choices": {
+      "A": "Whether the requirement uses the most sophisticated notation available",
+      "B": "Whether the requirement is atomic, complete, consistent, feasible, unambiguous, testable, and prioritized, among other quality characteristics",
+      "C": "Whether the requirement was written by the most senior stakeholder",
+      "D": "Whether the requirement is the shortest sentence possible"
+    },
+    "explanation": "Verify Requirements checks that requirements and designs are of sufficient quality by evaluating characteristics such as atomic, complete, consistent, concise, feasible, unambiguous, testable, prioritized, and understandable. Notation sophistication, authorship seniority, and raw brevity are not quality measures; a requirement can be short yet ambiguous, or long yet perfectly clear.",
+    "id": 62,
+    "question": "Before requirements are shown to stakeholders for confirmation, a business analyst performs Verify Requirements. What does verification actually assess?",
+    "difficulty": "medium"
+  },
+  {
+    "answer": "A",
+    "choices": {
+      "A": "Verify checks that requirements are well written (quality of the specification); validate checks that they deliver value and align with business goals (the right requirements)",
+      "B": "Verify and validate are two words for the identical activity performed twice",
+      "C": "Verify is done by testers and validate is done by developers, with no BA involvement",
+      "D": "Verify happens only after the solution is fully built; validate happens before elicitation"
+    },
+    "explanation": "In Requirements Analysis and Design Definition, Verify Requirements confirms the specification is of high quality (built the requirement right), whereas Validate Requirements confirms the requirements deliver business value and support the goals and objectives (built the right requirement). They are distinct tasks with different intents; they are not synonyms, not split cleanly by job title, and not sequenced as described in the other options.",
+    "id": 63,
+    "question": "A CBAP candidate is asked to distinguish Verify Requirements from Validate Requirements. Which statement draws the distinction correctly?",
+    "difficulty": "very difficult"
+  },
+  {
+    "answer": "D",
+    "choices": {
+      "A": "Choose the option the loudest stakeholder prefers",
+      "B": "Choose whichever option is cheapest to build regardless of value",
+      "C": "Choose the option with the most features",
+      "D": "Define and evaluate solution options against requirements and constraints, then recommend the option that best delivers value within the constraints"
+    },
+    "explanation": "Define Design Options and the associated recommendation work in Requirements Analysis and Design Definition identify possible ways to satisfy the need, evaluate each against requirements and constraints, and recommend the option delivering the greatest value within those constraints. Deferring to volume of opinion, picking the cheapest irrespective of value, or maximizing feature count all ignore the value-versus-constraint trade-off that the recommendation must be based on.",
+    "id": 64,
+    "question": "A business analyst has several viable ways to meet a business need, each with different cost, risk, and value profiles. According to Requirements Analysis and Design Definition, how should the recommended design option be selected?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "B",
+    "choices": {
+      "A": "A requirement always describes a component of a solution",
+      "B": "A requirement focuses on the need, while a design focuses on a solution; the same information can shift from requirement to design as understanding matures",
+      "C": "Requirements are written by analysts and designs are written by customers",
+      "D": "Designs must always be completed before any requirement is written"
+    },
+    "explanation": "BABOK treats requirement and design as a matter of focus rather than fixed artifact types: a requirement is a usable representation of a need, and a design is a usable representation of a solution, and information can move along this continuum as elicitation and analysis progress. A requirement does not inherently describe a component; authorship does not define the distinction; and designs do not have to precede requirements.",
+    "id": 65,
+    "question": "During Requirements Analysis and Design Definition, a team debates whether a particular statement is a 'requirement' or a 'design'. Which understanding BEST reflects how BABOK v3 frames the relationship?",
+    "difficulty": "very difficult"
+  },
+  {
+    "answer": "C",
+    "choices": {
+      "A": "The number of pages in the requirements document",
+      "B": "The seniority of the person who approved the requirements",
+      "C": "Whether the requirements, if implemented, would enable the enterprise to reach its desired future state and realize the identified business value",
+      "D": "Whether the requirements were delivered before the deadline"
+    },
+    "explanation": "Validate Requirements ensures that requirements and designs deliver the expected business benefit and align with the business goals and objectives that justified the change. Document length, approver seniority, and delivery timing say nothing about whether implementing the requirements would actually achieve the intended value, which is the essence of validation.",
+    "id": 66,
+    "question": "A business analyst is validating a set of requirements. What is the central question that Validate Requirements must answer?",
+    "difficulty": "medium"
+  },
+  {
+    "answer": "A",
+    "choices": {
+      "A": "Analyze the potential value and identify which requirements, if any, must be adjusted so the design can be realized within the constraint",
+      "B": "Discard all requirements that cannot be met and proceed with whatever remains",
+      "C": "Ignore the constraint because requirements always take precedence over designs",
+      "D": "Escalate to the sponsor to remove the constraint before doing any analysis"
+    },
+    "explanation": "When a design constraint limits what can be built, Requirements Analysis and Design Definition calls for analyzing the value implications and reconciling requirements with the constraint, adjusting or re-prioritizing requirements so a feasible, valuable design emerges. Silently discarding requirements loses value without analysis; asserting requirements always trump designs is false; and escalating first, before any analysis, skips the BA's core task of understanding the trade-off.",
+    "id": 67,
+    "question": "A technical constraint means the highest-value design option cannot be fully realized as originally specified. What does Requirements Analysis and Design Definition suggest the business analyst do?",
+    "difficulty": "very difficult"
+  },
+  {
+    "answer": "B",
+    "choices": {
+      "A": "It lists the names of everyone who attended the requirements workshops",
+      "B": "It represents the components of a solution and how they interact, providing the basis for design and construction decisions",
+      "C": "It is a marketing brochure describing the solution's benefits to customers",
+      "D": "It is the project schedule showing when each requirement will be built"
+    },
+    "explanation": "A solution's architecture, expressed through the design work in Requirements Analysis and Design Definition, describes the components of a solution and their relationships so that design and build decisions rest on a coherent structure. An attendance list, a marketing brochure, and a schedule are not representations of solution components and their interactions.",
+    "id": 68,
+    "question": "In Requirements Analysis and Design Definition, what does a solution or design representation of the components and their interactions provide?",
+    "difficulty": "medium"
+  },
+  {
+    "answer": "D",
+    "choices": {
+      "A": "Measure only the metrics that are easiest to collect",
+      "B": "Measure solution performance only after the solution has been fully decommissioned",
+      "C": "Rely on stakeholder anecdotes instead of defined measures",
+      "D": "Define the measures and collect performance data appropriate to the solution's context so its actual performance can be assessed against the expected value"
+    },
+    "explanation": "Measure Solution Performance (Solution Evaluation) determines which performance measures are appropriate, then collects and analyzes data to understand how the solution performs relative to expected value. Choosing only convenient metrics distorts the picture, measuring after decommissioning is too late to act, and anecdotes are not a defensible measurement basis.",
+    "id": 69,
+    "question": "A solution has been operating in production for several months. According to Solution Evaluation, how should the business analyst approach understanding how well it is performing?",
+    "difficulty": "medium"
+  },
+  {
+    "answer": "C",
+    "choices": {
+      "A": "The performance measures the executive personally finds most interesting",
+      "B": "Only financial measures, because non-financial value cannot be assessed",
+      "C": "Measures aligned with the value the solution was expected to deliver and the goals and objectives that justified the change",
+      "D": "Whatever measures the vendor's dashboard happens to display by default"
+    },
+    "explanation": "Solution Evaluation ties performance measures to the potential value and the business goals and objectives established during Strategy Analysis, so results can be judged against what the change was meant to achieve. Personal interest, a finance-only view (BABOK recognizes non-financial value), and vendor-default dashboards do not guarantee alignment with the intended value.",
+    "id": 70,
+    "question": "When selecting performance measures for a deployed solution, what should determine which measures matter, according to Solution Evaluation?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "A",
+    "choices": {
+      "A": "Analyze the difference between actual and potential performance to determine the cause and identify the constraints or factors limiting value",
+      "B": "Immediately replace the solution with a new one",
+      "C": "Conclude that the original business case was wrong and close the initiative",
+      "D": "Increase the targets so the solution appears to be underperforming by less"
+    },
+    "explanation": "Analyze Performance Measures and Assess Solution Limitations (Solution Evaluation) examine why actual performance falls short of potential, isolating whether the limitation lies inside the solution or in the enterprise around it. Replacing the solution outright, abandoning the initiative, or manipulating targets all skip the diagnostic analysis needed to recommend a proportionate action.",
+    "id": 71,
+    "question": "A deployed solution is delivering less value than expected. Under Solution Evaluation, what is the appropriate analytical step before recommending any action?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "B",
+    "choices": {
+      "A": "Solution limitations and enterprise limitations are the same thing",
+      "B": "A solution limitation stems from the solution itself, while an enterprise limitation stems from factors in the environment surrounding the solution such as processes, policies, or people",
+      "C": "Enterprise limitations only occur in government organizations",
+      "D": "Solution limitations can only be identified after the solution is retired"
+    },
+    "explanation": "Solution Evaluation distinguishes Assess Solution Limitations (constraints, defects, or issues within the solution) from Assess Enterprise Limitations (factors outside the solution, such as organizational structure, culture, processes, or stakeholder capability, that restrict value). They are different sources of underperformance; enterprise limitations are not confined to any sector, and solution limitations can be identified while the solution is live.",
+    "id": 72,
+    "question": "In Solution Evaluation, how does a solution limitation differ from an enterprise limitation?",
+    "difficulty": "very difficult"
+  },
+  {
+    "answer": "C",
+    "choices": {
+      "A": "Always recommend retaining the solution because change is disruptive",
+      "B": "Always recommend replacing the solution because newer is better",
+      "C": "Recommend the action (retain, adjust the solution, adjust the enterprise, or replace) that best increases the value the solution delivers given the assessed limitations",
+      "D": "Defer any recommendation indefinitely until the solution fails completely"
+    },
+    "explanation": "Recommend Actions to Increase Solution Value (Solution Evaluation) weighs the assessed solution and enterprise limitations and recommends the option that most improves realized value, which may mean retaining, modifying, changing the surrounding enterprise, or replacing the solution. Fixed default answers (always retain, always replace) ignore the analysis, and waiting for total failure forgoes recoverable value.",
+    "id": 73,
+    "question": "After assessing both solution and enterprise limitations, what is the purpose of the Recommend Actions to Increase Solution Value task in Solution Evaluation?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "D",
+    "choices": {
+      "A": "Because more requirements always means a better solution",
+      "B": "Because it lets the BA skip Validate Requirements entirely",
+      "C": "Because acceptance criteria are only relevant to financial calculations",
+      "D": "Because acceptance and evaluation criteria define what stakeholders will consider an acceptable solution, giving an objective basis for later validation and evaluation"
+    },
+    "explanation": "Define Requirements Architecture and the definition of acceptance and evaluation criteria in Requirements Analysis and Design Definition establish measurable conditions the solution must satisfy to be acceptable, which then anchors Validate Requirements and later Solution Evaluation. Volume of requirements is not quality; criteria do not replace validation; and acceptance criteria apply broadly, not just to financial items.",
+    "id": 74,
+    "question": "Why does defining acceptance and evaluation criteria during Requirements Analysis and Design Definition matter to later Solution Evaluation?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "A",
+    "choices": {
+      "A": "Structure them so relationships, dependencies, and the overall requirement set are coherent and traceable, forming the requirements architecture",
+      "B": "Store each requirement in a separate document with no cross-references",
+      "C": "Randomize the order of requirements to encourage fresh reading",
+      "D": "Keep requirements only in individual analysts' personal notebooks"
+    },
+    "explanation": "Define Requirements Architecture (Requirements Analysis and Design Definition) organizes requirements and their interrelationships into a coherent structure, ensuring the set is complete, consistent, and supports the information needs of the initiative. Isolated documents, randomized order, and private notebooks all defeat the coherence, traceability, and shared understanding that a requirements architecture provides.",
+    "id": 75,
+    "question": "A business analyst has many individual requirements spread across several workstreams. According to Requirements Analysis and Design Definition, how should they be organized?",
+    "difficulty": "medium"
+  },
+  {
+    "answer": "C",
+    "choices": {
+      "A": "$120,000 net gain, so the target is exceeded",
+      "B": "Exactly break-even against the target",
+      "C": "$40,000 short of the annual value target, indicating the solution is underperforming its expected value",
+      "D": "$400,000 surplus over the target"
+    },
+    "explanation": "Solution Evaluation compares actual value to expected value. Expected annual value = $500,000. Actual = units sold benefit of $9,200 per week over 50 operating weeks = 9,200 x 50 = $460,000. Shortfall = 500,000 - 460,000 = $40,000. So the solution is $40,000 (8%) below its annual value target, indicating underperformance to investigate. Option A misreads the figures, option B ignores the gap, and option D inverts the direction of the difference. [verify against your BABOK reference]",
+    "id": 76,
+    "question": "A deployed solution was expected to generate $500,000 of value per year. In practice it delivers a measured benefit of $9,200 per week and operates 50 weeks per year. Using a Solution Evaluation comparison of actual to expected value, how is the solution performing against its annual target?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "B",
+    "choices": {
+      "A": "18% ROI",
+      "B": "25% ROI",
+      "C": "125% ROI",
+      "D": "80% ROI"
+    },
+    "explanation": "Return on investment = net benefit / cost of investment. Net benefit = total benefit - cost = $250,000 - $200,000 = $50,000. ROI = 50,000 / 200,000 = 0.25 = 25%. Option C ($250,000 / $200,000 = 125%) mistakenly uses gross benefit instead of net benefit; option A and option D do not follow from the figures. The keyed answer B (25%) matches the worked computation.",
+    "id": 77,
+    "question": "A solution cost $200,000 to implement and has produced $250,000 in total measured benefit to date. Using the standard return on investment formula (net benefit divided by cost), what is the ROI?",
+    "difficulty": "medium"
+  },
+  {
+    "answer": "C",
+    "choices": {
+      "A": "Option X, because its benefit-cost ratio is higher",
+      "B": "Option Y, because its benefit-cost ratio is higher",
+      "C": "Option X, because although both have the same net benefit, Option X achieves it at lower cost, giving the higher benefit-cost ratio",
+      "D": "The two options are financially identical, so either may be chosen"
+    },
+    "explanation": "Benefit-cost ratio = benefit / cost. Option X: benefit $600,000, cost $400,000, ratio = 600,000 / 400,000 = 1.50. Option Y: benefit $750,000, cost $550,000, ratio = 750,000 / 550,000 = 1.36. Net benefit is the same for both (600,000 - 400,000 = 200,000; 750,000 - 550,000 = 200,000), which is the trap, but Option X achieves that net benefit more efficiently, so its ratio (1.50) exceeds Option Y's (1.36). The keyed answer C matches the computation; option A states the right choice but the wrong reason (it ignores that the net benefits are equal), option B picks the lower ratio, and option D ignores the ratio difference.",
+    "id": 78,
+    "question": "A business analyst compares two solution options using the benefit-cost ratio. Option X: benefit $600,000, cost $400,000. Option Y: benefit $750,000, cost $550,000. Both have the same net benefit. Which option has the better benefit-cost ratio and why?",
+    "difficulty": "very difficult"
+  },
+  {
+    "answer": "D",
+    "choices": {
+      "A": "Confirm the requirements are grammatically correct",
+      "B": "Ensure every requirement has a unique identifier",
+      "C": "Check that the document uses the approved template",
+      "D": "Confirm the requirements and designs align with the business goals and deliver the value the stakeholders need, resolving conflicts among stakeholder value definitions"
+    },
+    "explanation": "Validate Requirements includes reconciling differing stakeholder views of value and confirming the requirement set will deliver the intended benefit aligned to goals and objectives. Grammar, unique identifiers, and template compliance are quality or formatting concerns addressed elsewhere (e.g., Verify Requirements) and do not establish that the requirements are the right ones to deliver value.",
+    "id": 79,
+    "question": "Two stakeholder groups disagree about what constitutes value for the same solution. Which Requirements Analysis and Design Definition activity is MOST concerned with resolving this and confirming the requirements will deliver value?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "A",
+    "choices": {
+      "A": "Assess whether the solution or a component could deliver value if released independently, and recommend how to allocate requirements across releases or components accordingly",
+      "B": "Release the entire solution at once regardless of readiness",
+      "C": "Allocate requirements alphabetically to whichever component is named first",
+      "D": "Defer all releases until every requirement is complete"
+    },
+    "explanation": "Assessing potential value and allocating requirements in Requirements Analysis and Design Definition (with input from Solution Evaluation thinking) considers whether partial solutions or individual components can deliver value on their own, guiding how requirements are split across releases and components. A big-bang release ignores incremental value, alphabetical allocation ignores value and dependency, and deferring everything forfeits early benefit.",
+    "id": 80,
+    "question": "A business analyst is deciding how to split a large solution into releases to deliver value sooner. What analysis BEST supports this decision?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "B",
+    "choices": {
+      "A": "Because a model always replaces the need for written requirements",
+      "B": "Because different modeling formats (matrices, diagrams, text) expose different aspects, and choosing the right one clarifies the requirement for its intended use",
+      "C": "Because models are only useful to software developers",
+      "D": "Because the most complex model is always the most accurate"
+    },
+    "explanation": "Specify and Model Requirements selects representation formats based on what needs to be communicated and to whom; a process diagram, a data model, a matrix, or structured text each reveals different facets, so fit-for-purpose selection improves clarity. Models complement rather than replace written requirements, serve many stakeholders beyond developers, and complexity does not equal accuracy.",
+    "id": 81,
+    "question": "Why does Requirements Analysis and Design Definition emphasize choosing an appropriate modeling format rather than defaulting to a single notation for every requirement?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "C",
+    "choices": {
+      "A": "The solution must be scrapped because any deviation is unacceptable",
+      "B": "The deviation proves the performance measures were wrong and should be discarded",
+      "C": "A variance within the agreed acceptable range may be tolerated, while a variance beyond it triggers analysis of limitations and possible recommended actions",
+      "D": "Performance variance is irrelevant once a solution is in production"
+    },
+    "explanation": "Solution Evaluation interprets measured performance against defined targets and acceptable ranges; small variances inside tolerance may need no action, while variances outside tolerance drive the assess-limitations and recommend-actions tasks. Scrapping on any deviation overreacts, discarding the measures avoids the real analysis, and treating variance as irrelevant defeats the purpose of measuring performance.",
+    "id": 82,
+    "question": "A solution's measured performance deviates from its target. How should a business analyst interpret this under Solution Evaluation?",
+    "difficulty": "very difficult"
+  },
+  {
+    "answer": "D",
+    "choices": {
+      "A": "By counting how many requirements were implemented",
+      "B": "By asking developers whether they enjoyed building it",
+      "C": "By comparing the solution to competitors' marketing claims",
+      "D": "By assessing whether the solution enables the enterprise to meet the goals and objectives and realize the potential value defined during Strategy Analysis"
+    },
+    "explanation": "Solution Evaluation ultimately judges a solution against the potential value and the business goals and objectives set in Strategy Analysis, closing the loop between why the change was undertaken and what it achieved. Counting implemented requirements measures output not outcome, developer sentiment is not a value measure, and competitor marketing is not an objective basis for evaluating realized value.",
+    "id": 83,
+    "question": "What is the ultimate benchmark against which Solution Evaluation judges whether a solution is successful?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "A",
+    "choices": {
+      "A": "Trace the design elements back to the requirements and business need to confirm each is justified and none introduces unrequested scope",
+      "B": "Approve all design elements because more functionality is always beneficial",
+      "C": "Remove traceability so designers have freedom to add features",
+      "D": "Assume the extra design elements are defects and delete them without analysis"
+    },
+    "explanation": "Requirements Analysis and Design Definition relies on traceability to confirm that each design element corresponds to an approved requirement and business need; unrequested elements signal potential scope creep or gold plating to analyze, not to auto-approve. Blanket approval invites scope creep, removing traceability destroys the ability to detect it, and deleting without analysis may discard something a requirement actually justifies.",
+    "id": 84,
+    "question": "During design definition, a business analyst notices design elements that do not appear to map to any approved requirement. What is the MOST appropriate response under Requirements Analysis and Design Definition?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "B",
+    "choices": {
+      "A": "It confirms the requirements are grammatically flawless",
+      "B": "It confirms stakeholders agree the requirements accurately represent their needs and are correct and complete enough to base further work on",
+      "C": "It transfers legal ownership of the requirements to the business analyst",
+      "D": "It guarantees the project will finish under budget"
+    },
+    "explanation": "Confirming requirements and designs with stakeholders (part of validating and verifying within Requirements Analysis and Design Definition) establishes shared agreement that the requirements correctly capture the need and are sound enough to proceed. It is not a grammar check, does not change ownership, and cannot guarantee budget outcomes.",
+    "id": 85,
+    "question": "What does obtaining stakeholder confirmation of requirements accomplish within Requirements Analysis and Design Definition?",
+    "difficulty": "medium"
+  },
+  {
+    "answer": "C",
+    "choices": {
+      "A": "Recommend replacing the solution immediately",
+      "B": "Recommend no action because the solution itself works correctly",
+      "C": "Recommend action targeting the enterprise limitation, such as changing the surrounding process, policy, or capability, since the constraint lies outside the solution",
+      "D": "Recommend increasing the solution's technical performance targets"
+    },
+    "explanation": "When Solution Evaluation determines the value shortfall stems from an enterprise limitation (a factor outside the solution such as a manual approval bottleneck or insufficient training), the appropriate recommendation addresses that external factor rather than the solution. Replacing a well-functioning solution wastes value, taking no action leaves value unrealized, and raising the solution's technical targets does not fix a limitation that lives in the surrounding enterprise.",
+    "id": 86,
+    "question": "Solution Evaluation shows a solution operates exactly as designed, yet realized value is low because a manual approval process outside the solution creates a bottleneck. What kind of recommendation is MOST appropriate?",
+    "difficulty": "very difficult"
+  },
+  {
+    "answer": "A",
+    "choices": {
+      "A": "The design is a usable representation focused on how the solution will be built, offering more detail and solution orientation than the requirement it satisfies",
+      "B": "A design and a requirement are interchangeable terms with no difference in focus",
+      "C": "A design must always be expressed in a programming language",
+      "D": "A design is created only by external vendors, never by the business analyst"
+    },
+    "explanation": "In BABOK v3, a design is a usable representation that focuses on the solution and typically carries more solution detail than the requirement it addresses, while still sitting on the requirement-design continuum. It is not merely a synonym for requirement, need not be code, and can be produced by the business analyst as well as others.",
+    "id": 87,
+    "question": "A business analyst produces a representation that specifies how a solution component will meet an approved requirement. In Requirements Analysis and Design Definition terms, what best characterizes this design relative to the requirement?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "B",
+    "choices": {
+      "A": "Because complete requirements make elicitation unnecessary",
+      "B": "Because completeness, at the appropriate level of detail for its purpose, ensures the requirement set covers the need without gaps that would surface as rework or missed value later",
+      "C": "Because complete requirements guarantee zero defects in code",
+      "D": "Because completeness is measured solely by document page count"
+    },
+    "explanation": "Verify Requirements treats completeness as a quality characteristic meaning the requirement contains enough information for its intended use and the set has no gaps relative to the need, judged at an appropriate level of detail. Completeness does not eliminate elicitation, cannot by itself guarantee defect-free code, and is not measured by page count.",
+    "id": 88,
+    "question": "Why is completeness treated as a key quality characteristic when verifying requirements in Requirements Analysis and Design Definition?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "D",
+    "choices": {
+      "A": "Stop measuring, since a positive result means monitoring is no longer needed",
+      "B": "Immediately expand the solution's scope to capture even more value",
+      "C": "Conclude that no enterprise limitations could possibly exist",
+      "D": "Continue to monitor performance and look for opportunities to increase value further or to sustain the realized value over time"
+    },
+    "explanation": "Solution Evaluation is ongoing: even when a solution meets or exceeds targets, the BA continues monitoring to sustain value and to identify further opportunities or emerging limitations. Ceasing measurement forfeits early warning, unplanned scope expansion is not automatically justified by good performance, and good results do not prove the absence of enterprise limitations.",
+    "id": 89,
+    "question": "A solution is currently meeting its value targets. According to Solution Evaluation, what is the appropriate ongoing posture?",
+    "difficulty": "medium"
+  },
+  {
+    "answer": "A",
+    "choices": {
+      "A": "Verify and validate the requirements and designs, and ensure acceptance and evaluation criteria are defined so the solution can later be assessed objectively",
+      "B": "Skip verification because stakeholders already trust the analyst",
+      "C": "Finalize the project budget before analyzing any requirement",
+      "D": "Hand all requirements to the vendor and cease business analysis involvement"
+    },
+    "explanation": "Requirements Analysis and Design Definition prepares a solution for successful evaluation by producing high-quality (verified) requirements that deliver value (validated) and by establishing acceptance and evaluation criteria, so Solution Evaluation later has an objective yardstick. Skipping verification, front-loading budget finalization, and abdicating BA involvement all undermine the objective basis needed for later evaluation.",
+    "id": 90,
+    "question": "Which combination of Requirements Analysis and Design Definition activities BEST sets up a solution to be evaluated objectively later in Solution Evaluation?",
+    "difficulty": "difficult"
+  }
+]
