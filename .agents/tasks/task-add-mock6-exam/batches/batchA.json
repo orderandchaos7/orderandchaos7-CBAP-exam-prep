@@ -1,0 +1,392 @@
+[
+  {
+    "answer": "B",
+    "choices": {
+      "A": "Publish a single fixed communication schedule so every stakeholder receives identical updates",
+      "B": "Determine the stakeholder groups, their information needs, and the timing, form, and frequency of communication",
+      "C": "Wait until requirements are approved before deciding how to communicate them",
+      "D": "Delegate all business analysis communication decisions to the project sponsor"
+    },
+    "explanation": "Plan Business Analysis Information Management (and Plan Stakeholder Engagement) determine which stakeholder groups need which information and the timing, form, and frequency in which it will be delivered, tailored to each group. A single identical schedule ignores differing needs; deferring the decision until approval leaves collaboration unplanned during elicitation; and handing the decision to the sponsor abdicates the BA's planning responsibility.",
+    "id": 1,
+    "question": "Priya, a business analyst on a cross-department finance transformation, has completed stakeholder analysis and sees widely varying information needs among executives, operations staff, and an external auditor. As she plans business analysis communication, what should she primarily establish?",
+    "difficulty": "medium"
+  },
+  {
+    "answer": "C",
+    "choices": {
+      "A": "The number of requirements documents produced per week",
+      "B": "The total hours the business analyst logs on the initiative",
+      "C": "How well business analysis work is meeting expectations and whether performance improvements are needed",
+      "D": "The count of meetings the business analyst has scheduled"
+    },
+    "explanation": "Identify Business Analysis Performance Improvements assesses business analysis work against agreed performance measures to determine whether it is meeting expectations and where improvements are warranted. Document counts, logged hours, and meeting counts are activity metrics, not measures of whether the analysis is delivering value or meeting expectations, so they can rise while performance actually degrades.",
+    "id": 2,
+    "question": "A BA lead reviews the business analysis effort at the end of an iteration to decide whether the way requirements are being produced and validated still serves the initiative. According to BA Planning and Monitoring, what is the central purpose of this activity?",
+    "difficulty": "medium"
+  },
+  {
+    "answer": "A",
+    "choices": {
+      "A": "Because the governance approach defines who has authority to approve requirements and how changes are prioritized and decided",
+      "B": "Because governance determines the programming language the vendor will use",
+      "C": "Because governance sets the daily stand-up meeting time for the delivery team",
+      "D": "Because governance fixes the user interface color palette for the solution"
+    },
+    "explanation": "The business analysis governance approach specifies how requirements and designs are approved, who has decision authority, and how changes are requested, prioritized, and approved. Establishing it early prevents disputes over who can say yes to a change. Language choice, stand-up timing, and UI palette are delivery or design details unrelated to decision authority over requirements.",
+    "id": 3,
+    "question": "On a program with three competing sponsoring departments, a BA insists on agreeing the business analysis governance approach before elicitation begins. Why is settling governance first the MOST defensible move?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "D",
+    "choices": {
+      "A": "Choose an adaptive approach because adaptive is always faster to deliver",
+      "B": "Choose a predictive approach because predictive avoids all documentation",
+      "C": "Choose whichever approach the loudest stakeholder prefers",
+      "D": "Choose the approach whose planning, formality, and change tolerance best fit the initiative's uncertainty, risk, and stakeholder context"
+    },
+    "explanation": "Plan Business Analysis Approach selects the approach based on the initiative's characteristics: level of uncertainty, risk tolerance, regulatory needs, and stakeholder context, balancing predictive formality against adaptive responsiveness. Adaptive is not universally faster, predictive does not mean zero documentation, and deferring to the loudest voice ignores the analytical basis for the decision.",
+    "id": 4,
+    "question": "A BA must recommend whether to use a predictive or adaptive business analysis approach for a new initiative with moderate regulatory exposure and evolving requirements. What is the BEST basis for the recommendation?",
+    "difficulty": "medium"
+  },
+  {
+    "answer": "B",
+    "choices": {
+      "A": "Classify her by title as a senior manager and plan frequent, formal updates on that basis",
+      "B": "Classify her by low influence but high impact, and plan to keep her adequately informed and consulted rather than over-invest in persuading her",
+      "C": "Classify her as high influence because she manages many staff, and prioritize winning her sponsorship",
+      "D": "Exclude her from the engagement plan because she supports the initiative and needs no management"
+    },
+    "explanation": "Stakeholder analysis distinguishes influence (power to affect decisions) from impact (how much the change affects the stakeholder). A supportive manager who is heavily affected but lacks decision authority over this initiative is high-impact but low-influence, warranting adequate information and consultation rather than heavy persuasion effort better spent on influential skeptics. Classifying by title or headcount conflates position with influence over this specific solution, and excluding an affected supporter risks losing engagement and surfacing impacts late.",
+    "id": 5,
+    "question": "During Plan Stakeholder Engagement, a BA assesses a department manager who strongly favors the initiative, will be heavily affected by the new process, but has no formal authority over the solution decisions and limited sway over other departments. How should the BA MOST appropriately position her in the engagement plan?",
+    "difficulty": "very difficult"
+  },
+  {
+    "answer": "C",
+    "choices": {
+      "A": "Stop tracking risks because the initiative is already underway",
+      "B": "Escalate every identified risk immediately to the sponsor for a decision",
+      "C": "Assess each risk's likelihood and impact and plan responses proportionate to the risk",
+      "D": "Record risks in a list but take no further action until they occur"
+    },
+    "explanation": "Business analysis risk management, part of Plan Business Analysis Governance and ongoing monitoring, evaluates each risk's probability and impact and plans proportionate responses (avoid, transfer, mitigate, accept). Halting tracking abandons monitoring, escalating everything overwhelms the sponsor and ignores prioritization, and passively logging risks with no response leaves the initiative exposed.",
+    "id": 6,
+    "question": "A BA maintains a list of business analysis risks that could threaten requirement quality on a fast-moving initiative. Beyond recording them, what is the MOST appropriate way to handle these risks?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "A",
+    "choices": {
+      "A": "Traceability of each requirement back to a business need and forward to design and test artifacts",
+      "B": "The alphabetical ordering of requirement titles",
+      "C": "The font and formatting used in the requirements document",
+      "D": "The number of stakeholders who attended each workshop"
+    },
+    "explanation": "Planning the business analysis approach and information management includes deciding how requirements will be traced, linking each requirement to the business need it satisfies and forward to design, build, and test artifacts, which supports coverage analysis and impact assessment. Alphabetical order, formatting, and attendance counts do not establish the relationships needed to demonstrate coverage or assess change impact.",
+    "id": 7,
+    "question": "An audit-sensitive initiative requires the BA to demonstrate later that every delivered feature ties to an approved need. When planning the business analysis approach, which capability is MOST important to design in from the start?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "D",
+    "choices": {
+      "A": "The BA should abandon the requirements because consensus is impossible",
+      "B": "The BA should record only the executive's view since executives outrank others",
+      "C": "The BA should average the conflicting statements into a single blended requirement",
+      "D": "The BA should facilitate the stakeholders to reconcile the conflict and record the agreed outcome"
+    },
+    "explanation": "Confirm Elicitation Results and the collaboration competencies call for the BA to surface and help resolve conflicting information through facilitation, then record the reconciled outcome, so requirements are consistent and agreed. Abandoning requirements is defeatist, privileging rank ignores validity of the operational view, and mechanically averaging conflicting statements can produce a requirement no stakeholder actually wants or that is internally inconsistent.",
+    "id": 8,
+    "question": "After two elicitation sessions, a BA finds that an executive and a frontline supervisor described the same approval process in contradictory ways. What is the BEST next action?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "B",
+    "choices": {
+      "A": "Interviews, because they always yield the most data per hour",
+      "B": "Observation, because it reveals actual behavior and tacit steps operators may not articulate",
+      "C": "A survey, because it can reach the largest audience",
+      "D": "Document analysis, because existing documents are always accurate"
+    },
+    "explanation": "Observation is the elicitation technique best suited to capturing how work is actually performed, including tacit or workaround steps that people omit when describing their jobs. Interviews and surveys rely on self-report and can miss unspoken steps, and document analysis reflects intended rather than actual practice, which is precisely the gap the BA suspects.",
+    "id": 9,
+    "question": "A BA suspects that a warehouse team performs several undocumented workaround steps that they cannot fully describe in interviews. Which elicitation technique is MOST likely to surface the real process?",
+    "difficulty": "medium"
+  },
+  {
+    "answer": "C",
+    "choices": {
+      "A": "Send the meeting notes to stakeholders and assume silence means agreement",
+      "B": "Treat the elicited information as final because it came directly from stakeholders",
+      "C": "Compare the elicitation results against other sources and confirm them with stakeholders for correctness and completeness",
+      "D": "Discard any information that a single stakeholder cannot personally verify"
+    },
+    "explanation": "Confirm Elicitation Results has the BA check elicited information for correctness and completeness by comparing it against other elicitation sources and confirming it with stakeholders, reducing the risk of acting on misunderstood needs. Assuming silence is agreement is unreliable, treating raw elicitation as final skips validation, and discarding anything a single person cannot verify would wrongly reject legitimate but distributed knowledge.",
+    "id": 10,
+    "question": "Following a series of workshops, a BA has a large volume of elicited information of varying reliability. According to Elicitation and Collaboration, what is the correct way to establish confidence in it?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "A",
+    "choices": {
+      "A": "The BA should prepare by determining scope, selecting techniques, and arranging logistics and stakeholder availability",
+      "B": "The BA should skip preparation to keep the sessions spontaneous and unbiased",
+      "C": "The BA should prepare only the catering and room booking",
+      "D": "The BA should let each stakeholder decide unilaterally what will be discussed"
+    },
+    "explanation": "Prepare for Elicitation defines the scope of the activity, selects appropriate techniques, and arranges the supporting logistics and stakeholder availability so sessions are productive. Skipping preparation risks unfocused sessions; arranging only catering ignores technique and scope; and letting each stakeholder unilaterally set the agenda undermines a coherent, goal-directed elicitation plan.",
+    "id": 11,
+    "question": "Before a set of high-stakes elicitation sessions with senior stakeholders whose time is scarce, what does Prepare for Elicitation expect the BA to do?",
+    "difficulty": "medium"
+  },
+  {
+    "answer": "D",
+    "choices": {
+      "A": "Because collaboration eliminates the need to document any requirements",
+      "B": "Because ongoing collaboration guarantees the project will finish early",
+      "C": "Because collaborating means the BA no longer needs stakeholder sign-off",
+      "D": "Because sustained, trust-based collaboration keeps stakeholders engaged and improves the quality and acceptance of requirements"
+    },
+    "explanation": "Manage Stakeholder Collaboration emphasizes building and sustaining working relationships and trust throughout the initiative so stakeholders stay engaged, share information candidly, and support the resulting requirements. Collaboration does not remove the need to document requirements, does not guarantee an early finish, and does not eliminate the need for approvals; its value is engagement and requirement quality.",
+    "id": 12,
+    "question": "A BA invests deliberate effort in maintaining relationships and trust with stakeholders across a long program rather than only during scheduled workshops. Why is this ongoing collaboration emphasized in BABOK?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "B",
+    "choices": {
+      "A": "A brainstorming session with no facilitation rules",
+      "B": "A structured facilitated workshop with a defined agenda, a neutral facilitator, and a scribe",
+      "C": "An unmoderated group email thread",
+      "D": "A one-way presentation from the BA to stakeholders"
+    },
+    "explanation": "A facilitated workshop uses a defined agenda, a neutral facilitator to manage participation and conflict, and a scribe to capture outputs, making it well suited to driving diverse stakeholders toward shared decisions efficiently. Unstructured brainstorming lacks convergence mechanisms, an email thread cannot manage real-time conflict, and a one-way presentation elicits little collaborative input.",
+    "id": 13,
+    "question": "A BA needs a large group of diverse stakeholders to reach shared decisions on scope in a single intensive session. Which elicitation arrangement BEST supports this outcome?",
+    "difficulty": "medium"
+  },
+  {
+    "answer": "C",
+    "choices": {
+      "A": "Interface analysis, because it defines data exchanged between systems",
+      "B": "Focus groups, because they gauge subjective attitudes",
+      "C": "Document analysis, because it extracts existing requirements and rules from current materials",
+      "D": "Prototyping, because it visualizes a future interface"
+    },
+    "explanation": "Document analysis examines existing materials such as current process descriptions, regulations, and system documentation to elicit background information and existing requirements or business rules. Interface analysis focuses on system-to-system data exchange, focus groups capture attitudes rather than existing rules, and prototyping explores future solution design rather than mining current documented rules.",
+    "id": 14,
+    "question": "Replacing a legacy claims system, a BA wants to recover the embedded business rules and requirements already captured in current manuals and regulatory filings before designing anything new. Which technique is MOST appropriate?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "A",
+    "choices": {
+      "A": "Ambiguous or missing requirements are surfaced and clarified before they propagate into design and build",
+      "B": "The BA can reduce the number of stakeholders who must be consulted",
+      "C": "The requirements document becomes shorter and easier to read",
+      "D": "The project can skip formal approval steps entirely"
+    },
+    "explanation": "Confirming elicitation results early surfaces ambiguity, gaps, and contradictions while they are cheap to fix, preventing them from being built into design and code where correction is far costlier. It does not reduce the legitimate stakeholder set, is not primarily about document length, and does not remove the need for approvals.",
+    "id": 15,
+    "question": "A BA argues that spending time to confirm elicitation results reduces downstream rework. What is the strongest justification for this claim?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "D",
+    "choices": {
+      "A": "Interview the department director for all three, since the director outranks the others and can speak for the team",
+      "B": "Survey the whole department for all three to maximize coverage and treat majority responses as authoritative",
+      "C": "Elicit all three from whichever stakeholders reply first, to protect the tight schedule",
+      "D": "Source the regulatory constraints from the compliance owner, the operational steps from frontline staff, and the priorities from the executive, matching each information type to the authoritative holder"
+    },
+    "explanation": "Elicitation source selection matches each type of information to the stakeholder or artifact that legitimately holds authoritative knowledge of it: compliance owners for regulatory constraints, frontline staff for how work is actually done, and executives for priorities. Routing everything through the director assumes one person authoritatively knows all three, which is rarely true; surveying by majority can drown out the true rule owner; and choosing by response speed optimizes convenience over accuracy.",
+    "id": 16,
+    "question": "For a single initiative a BA must capture precise regulatory constraints, the actual operational steps staff perform, and executive priorities. Facing schedule pressure, which sourcing strategy is MOST defensible?",
+    "difficulty": "very difficult"
+  },
+  {
+    "answer": "B",
+    "choices": {
+      "A": "Root cause analysis, because it traces a defect to its underlying cause",
+      "B": "Decision analysis, because it evaluates options against weighted criteria to support a choice",
+      "C": "Data modeling, because it defines entities and relationships",
+      "D": "Survey or questionnaire, because it collects opinions at scale"
+    },
+    "explanation": "Decision analysis formally evaluates alternatives against defined and often weighted criteria to recommend the option that best satisfies objectives, which is exactly what selecting among vendor packages requires. Root cause analysis diagnoses problems, data modeling describes information structure, and surveys gather opinions but do not by themselves structure the comparative trade-off decision.",
+    "id": 17,
+    "question": "A steering committee must choose among three competing software packages using cost, fit-to-need, and vendor stability as decision factors of differing importance. Which technique BEST structures this choice?",
+    "difficulty": "medium"
+  },
+  {
+    "answer": "C",
+    "choices": {
+      "A": "Because the sponsor will reject any plan that lacks a numeric budget",
+      "B": "Because estimation is required by every regulatory regime",
+      "C": "Because estimating business analysis effort informs planning, resourcing, and expectation-setting despite inherent uncertainty",
+      "D": "Because a precise estimate removes the need to monitor progress later"
+    },
+    "explanation": "Estimating business analysis work supports Plan Business Analysis Approach and governance by informing schedule, resourcing, and stakeholder expectations, using techniques and ranges that acknowledge uncertainty. Estimation is not universally mandated by sponsors or regulators, and no estimate, however precise, eliminates the need for ongoing performance monitoring against actuals.",
+    "id": 18,
+    "question": "A BA produces an effort estimate for the analysis work on a poorly understood initiative, expressing it as a range rather than a single number. Why does BABOK value estimating business analysis work even under high uncertainty?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "A",
+    "choices": {
+      "A": "Reuse of requirements, because clearly defined, well-structured requirements can be applied to future initiatives",
+      "B": "Faster typing, because structured requirements are shorter",
+      "C": "Elimination of stakeholder reviews, because structure guarantees correctness",
+      "D": "Automatic generation of source code from requirements"
+    },
+    "explanation": "One benefit BABOK associates with well-managed, clearly specified requirements is reuse: requirements that are unambiguous and well-structured can be maintained and applied across future initiatives, reducing rework. Structure does not equate to faster typing, does not remove the need for stakeholder review, and does not by itself generate code.",
+    "id": 19,
+    "question": "A BA maintains a curated repository of clearly specified, well-structured requirements from past initiatives. Which benefit does BABOK most directly associate with this practice?",
+    "difficulty": "medium"
+  },
+  {
+    "answer": "D",
+    "choices": {
+      "A": "Because the plan cannot be changed once baselined",
+      "B": "Because monitoring only matters at the end of the initiative",
+      "C": "Because monitoring replaces the need to plan at all",
+      "D": "Because comparing actual business analysis performance to the plan lets the BA adjust the approach when reality diverges"
+    },
+    "explanation": "Monitoring business analysis performance means comparing actual progress and outcomes against the planned approach so the BA can adapt when circumstances change, which is why planning and monitoring are treated as an ongoing, paired activity. Plans can be revised, monitoring is continuous rather than end-only, and monitoring complements rather than replaces planning.",
+    "id": 20,
+    "question": "A BA revisits the business analysis approach mid-initiative after several assumptions proved wrong. Why does BA Planning and Monitoring pair planning with continuous monitoring?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "B",
+    "choices": {
+      "A": "The number of pages in the requirements package",
+      "B": "Whether the elicited requirements are complete, consistent, and free of unresolved contradictions",
+      "C": "Whether the sessions finished ahead of schedule",
+      "D": "Whether every stakeholder enjoyed the workshop"
+    },
+    "explanation": "When confirming elicitation results, the BA assesses the information for completeness, internal consistency, and the absence of unresolved contradictions, because those qualities determine whether the requirements can be relied upon. Page count and schedule speed are not quality measures, and stakeholder enjoyment, while helpful for collaboration, does not establish that the information is correct and complete.",
+    "id": 21,
+    "question": "A BA is judging whether a set of elicited requirements is trustworthy enough to carry forward. Which criterion is MOST central to that judgment?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "C",
+    "choices": {
+      "A": "Simple payback of about 2.0 years",
+      "B": "Simple payback of about 2.5 years",
+      "C": "Simple payback of about 2.75 years",
+      "D": "Simple payback of about 3.5 years"
+    },
+    "explanation": "Cumulative undiscounted inflows: end of Year 1 = 120,000; end of Year 2 = 320,000 (120,000 + 200,000); end of Year 3 = 600,000 (320,000 + 280,000). The 530,000 investment is recovered during Year 3. After Year 2, 210,000 remains (530,000 - 320,000). Year 3 inflow is 280,000, so 210,000 / 280,000 = 0.75 year into Year 3. Simple payback = 2 + 0.75 = 2.75 years.",
+    "id": 22,
+    "question": "During strategy analysis a BA evaluates an initiative requiring an initial investment of $530,000 with expected undiscounted net cash inflows of $120,000 in Year 1, $200,000 in Year 2, $280,000 in Year 3, and $150,000 in Year 4. What is the simple payback period?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "B",
+    "choices": {
+      "A": "Investment X, because it returns more total dollars",
+      "B": "Investment Y, because its discounted present value is higher",
+      "C": "They are equal in present value",
+      "D": "Present value cannot be determined from the information given"
+    },
+    "explanation": "Discount each to present value at 8%. Investment X: 50,000 / 1.08 = 46,296. Investment Y: 55,000 / (1.08^2) = 55,000 / 1.1664 = 47,153. Because 47,153 is greater than 46,296, Investment Y has the higher present value even though X pays sooner and Y's undiscounted amount is only modestly larger. Total undiscounted dollars alone can mislead, so the values are not equal and are fully computable from the data given.",
+    "id": 23,
+    "question": "A BA must recommend between two options. Investment X returns $50,000 net at the end of Year 1. Investment Y returns $55,000 net at the end of Year 2. Using an 8% annual discount rate, which option has the higher present value?",
+    "difficulty": "very difficult"
+  },
+  {
+    "answer": "A",
+    "choices": {
+      "A": "Recognize the elicitation technique may be poorly matched to the stakeholders and adapt the approach rather than blame the stakeholders",
+      "B": "Conclude the stakeholders are uncooperative and escalate for their removal",
+      "C": "Proceed to document requirements from the sparse input to stay on schedule",
+      "D": "Repeat the identical session unchanged and expect a better result"
+    },
+    "explanation": "Elicitation and Collaboration expects the BA to monitor whether the chosen technique is producing useful results and to adapt technique and facilitation to the stakeholders and context when it is not. Blaming and escalating removal of stakeholders ignores the BA's own technique choice, documenting from sparse input risks incomplete requirements, and repeating the same session unchanged is unlikely to change the outcome.",
+    "id": 24,
+    "question": "A BA runs a structured interview format that produces thin, guarded responses from operational staff who seem uncomfortable. What is the MOST professional response consistent with Elicitation and Collaboration?",
+    "difficulty": "very difficult"
+  },
+  {
+    "answer": "D",
+    "choices": {
+      "A": "Choose the stakeholder with the largest team",
+      "B": "Choose the stakeholder who is most available",
+      "C": "Choose whoever raised the change request",
+      "D": "Identify who holds the defined authority to approve that requirement under the governance approach"
+    },
+    "explanation": "The governance approach defines who has decision and approval authority over requirements and changes; determining a legitimate approver means applying that defined authority, not proxying it to team size, availability, or the requester. Team size and availability do not confer approval rights, and the person who raised a change is often not the one authorized to approve it.",
+    "id": 25,
+    "question": "Facing a contested requirement change late in an initiative, a BA needs to determine who can legitimately approve it. Under BA Planning and Monitoring, what determines the correct approver?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "C",
+    "choices": {
+      "A": "It should be identical for all initiatives to ensure consistency",
+      "B": "It should be dictated solely by the tooling the organization already owns",
+      "C": "It should be tailored to the initiative's needs while respecting relevant organizational standards and constraints",
+      "D": "It should ignore organizational standards to maximize the BA's flexibility"
+    },
+    "explanation": "Plan Business Analysis Approach tailors the approach to the specific initiative, its complexity, risk, and stakeholder context, while still conforming to relevant organizational standards, methodologies, and regulatory constraints. A one-size-fits-all approach ignores context, tooling should not dictate method, and disregarding organizational standards creates compliance and integration problems.",
+    "id": 26,
+    "question": "A BA is deciding how much of the organization's standard methodology to apply to a small, low-risk enhancement versus a large regulated program. What principle should guide how the business analysis approach is set for each?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "A",
+    "choices": {
+      "A": "Because unmanaged assumptions and constraints can invalidate requirements and inflate risk if they later prove false",
+      "B": "Because assumptions are contractual obligations that bind the vendor",
+      "C": "Because constraints always disappear once the project is approved",
+      "D": "Because listing assumptions replaces the need for stakeholder validation"
+    },
+    "explanation": "Explicitly capturing assumptions and constraints lets the BA and stakeholders test them, monitor them, and plan responses if an assumption fails, because a false assumption can undermine the requirements built upon it. Assumptions are not vendor contracts, constraints do not vanish upon approval, and documenting assumptions supports rather than replaces validation.",
+    "id": 27,
+    "question": "A BA documents and tracks the assumptions and constraints underpinning a set of requirements throughout an initiative. Why does BABOK treat this as important business analysis practice?",
+    "difficulty": "difficult"
+  },
+  {
+    "answer": "B",
+    "choices": {
+      "A": "Deliver the requirement exactly as the powerful stakeholder demanded to avoid conflict",
+      "B": "Objectively present the analysis showing the demand conflicts with the stated business objective and facilitate a decision",
+      "C": "Silently drop the powerful stakeholder's demand from the requirements",
+      "D": "Escalate to remove the powerful stakeholder from the initiative"
+    },
+    "explanation": "The BA's role and the collaboration competencies call for objectivity: presenting evidence that a requested requirement conflicts with agreed business objectives and facilitating an informed decision, rather than either capitulating to power or covertly overriding a stakeholder. Complying uncritically compromises objectives, silently dropping the demand is dishonest and erodes trust, and pushing to remove the stakeholder is disproportionate and damages collaboration.",
+    "id": 28,
+    "question": "A highly influential stakeholder pressures a BA to write a requirement that the BA's analysis shows will undermine the initiative's agreed business objective. What is the MOST appropriate action?",
+    "difficulty": "very difficult"
+  },
+  {
+    "answer": "D",
+    "choices": {
+      "A": "The technique that the BA personally finds most enjoyable to run",
+      "B": "The technique that requires the least preparation time",
+      "C": "The technique most recently covered in a training course",
+      "D": "The technique whose strengths match the information needed, the stakeholders available, and the initiative's constraints"
+    },
+    "explanation": "Selecting an elicitation technique in Prepare for Elicitation weighs the nature of the information sought, the stakeholders and their availability, and constraints such as time, location, and confidentiality, choosing the technique whose strengths fit that context. Personal preference, minimal preparation, and recency of training are not valid selection criteria because they ignore fitness for the elicitation goal.",
+    "id": 29,
+    "question": "A BA has several viable elicitation techniques available for an upcoming initiative with geographically dispersed, time-constrained stakeholders. What should MOST drive the choice among them?",
+    "difficulty": "very difficult"
+  },
+  {
+    "answer": "C",
+    "choices": {
+      "A": "Continue eliciting new requirements indefinitely because more detail is always better",
+      "B": "Confirm results only with the sponsor because the sponsor pays for the work",
+      "C": "Balance the depth of elicitation and confirmation against time, cost, and the criticality of the requirements",
+      "D": "Skip confirmation entirely whenever the schedule is tight"
+    },
+    "explanation": "Elicitation and Collaboration expects the BA to right-size effort, investing more elicitation and confirmation where requirements are critical or uncertain and less where they are low-risk, balancing thoroughness against time and cost. Eliciting indefinitely wastes resources, confirming only with the sponsor omits knowledgeable stakeholders, and skipping confirmation under schedule pressure trades away requirement reliability precisely when errors are costly.",
+    "id": 30,
+    "question": "Under tight deadlines, a BA must decide how much effort to spend eliciting and confirming each requirement across items of varying importance. What is the MOST defensible approach?",
+    "difficulty": "very difficult"
+  }
+]
